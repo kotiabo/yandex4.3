@@ -4,6 +4,7 @@ def merge(a, b):
     c = []
     i = 0
     j = 0
+
     while True:
         if i >= len(a):
             c += list(b[j:b[-1]])
